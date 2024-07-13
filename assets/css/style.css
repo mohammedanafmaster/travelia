@@ -592,3 +592,39 @@ body.nav-active {
 .destination-card .btn {
     margin-inline: auto;
 }
+
+/* Experience */
+.experience .container {
+    display: grid;
+    gap: 50px;
+}
+
+.experience .section-text {
+    margin-block-end: 20px;
+}
+
+.experience-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-block-start: 15px;
+}
+
+.experience-item .item-title {
+    color: var(--bg-majorelle-blue);
+    font-size: 3.6rem;
+    font-weight: var(--weight-bold);
+}
+
+.experience-banner {
+    position: relative;
+}
+
+.experience-shape {
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    width: 25%;
+    filter: drop-shadow(var(--shadow-4));
+}
+
