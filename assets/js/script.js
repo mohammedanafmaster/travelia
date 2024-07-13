@@ -7,7 +7,7 @@ window.onload = () => {
 
 // Add event on multiple elements
 const addEventOnElements = (elements, eventType, callback) => {
-    for (let i = 0 ; i < elements.length ; i++) {
+    for (let i = 0; i < elements.length; i++) {
         elements[i].addEventListener(eventType, callback);
     }
 }

@@ -91,6 +91,10 @@ ion-icon {
   display: block;
 }
 
+img {
+    height: auto;
+}
+
 input,
 button {
   background: none;
@@ -166,6 +170,46 @@ body.nav-active {
 .btn-secondary:is(:hover, :focus-visible) {
   background-color: var(--bg-english-vermillion);
   box-shadow: var(--shadow-3);
+}
+
+.section {
+  padding-block-end: var(--section-spacing);
+}
+
+.has-bg-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+    color: var(--text-gunmetal);
+    font-weight: var(--weight-semiBold);
+    line-height: 1.45;
+}
+
+.h1 {
+    font-size: var(--fontSize-1);
+    line-height: 1.2;
+}
+
+.h2 {
+    font-size: var(--fontSize-2);
+}
+
+.h3 {
+    font-size: var(--fontSize-4);
+}
+
+.img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition-2);
+}
+
+.w-100 {
+    width: 100%;
 }
 
 /* Preloader */
@@ -366,4 +410,69 @@ body.nav-active {
 .overlay.active {
   visibility: visible;
   opacity: 0.5;
+}
+
+/* Hero */
+.hero {
+  padding-block-start: 150px;
+}
+
+.hero-subtitle {
+    background-color: var(--bg-misty-rose);
+    color: var(--text-light-coral);
+    max-width: max-content;
+    padding: 8px 20px;
+    border-radius: var(--radius-pill);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-title {
+    margin-block: 20px;
+}
+
+.hero-text {
+    margin-block-end: 30px;
+}
+
+.hero .btn-secondary {
+    margin-block-end: 20px;
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: var(--text-gunmetal);
+    font-weight: var(--weight-medium);
+    transition: var(--transition-1);
+}
+
+.hero-btn .btn-image {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: var(--radius-circle);
+    background-color: var(--bg-gainsboro);
+    box-sizing: var(--shadow-1);
+}
+
+.hero-btn .img-cover {
+    border-radius: inherit;
+}
+
+.hero-btn ion-icon {
+    position: absolute;
+    top: 50%;
+    transform: translate(50%, -50%);
+    right: 0;
+    background-color: var(--bg-white);
+    border-radius: inherit;
+    padding: 10px;
+    box-shadow: var(--shadow-1);
+}
+
+.hero-btn:is(:hover, :focus-visible) {
+    color: var(--bg-majorelle-blue);
 }
