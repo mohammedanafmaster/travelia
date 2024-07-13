@@ -641,3 +641,23 @@ body.nav-active {
 .gallery .item-banner {
     border-radius: var(--radius-30);
 }
+
+/* CTA */
+.cta-card {
+    background-color: var(--bg-misty-rose);
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: var(--radius-30);
+}
+
+.cta-card .img {
+    display: inline-block;
+}
+
+.cta-card .section-text {
+    margin-block: 20px;
+}
+
+.cta-card .btn {
+    margin-inline: auto;
+}
