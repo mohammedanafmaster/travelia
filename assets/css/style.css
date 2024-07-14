@@ -526,140 +526,136 @@ body.nav-active {
 }
 
 .destination-list {
-    display: grid;
-    gap: 30px;
-}
-
-.destination-item {
-    margin-block-end: 30px;
+  display: grid;
+  gap: 30px;
 }
 
 .destination-card .card-banner {
-    position: relative;
-    border-radius: var(--radius-30);
+  position: relative;
+  border-radius: var(--radius-30);
 }
 
 .destination-card:is(:hover, :focus-within) .img-cover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .destination-card .card-price {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background-color: var(--bg-white);
-    color: var(--bg-majorelle-blue);
-    font-weight: var(--weight-bold);
-    font-size: 1.8rem;
-    line-height: 1.45;
-    padding: 5px 15px;
-    border-radius: var(--radius-pill);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: var(--bg-white);
+  color: var(--bg-majorelle-blue);
+  font-weight: var(--weight-bold);
+  font-size: 1.8rem;
+  line-height: 1.45;
+  padding: 5px 15px;
+  border-radius: var(--radius-pill);
 }
 
 .destination-card .card-title {
-    margin-block: 5px 15px;
-    transition: var(--transition-1);
+  margin-block: 5px 15px;
+  transition: var(--transition-1);
 }
 
 .destination-card .card-title:is(:hover, :focus-visible) {
-    color: var(--text-majorelle-blue);
+  color: var(--text-majorelle-blue);
 }
 
 .destination-card :is(.card-rating, .span) {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .destination-card .card-rating {
-    margin-block-start: 10px;
+  margin-block-start: 10px;
 }
 
 .destination-card .card-review {
-    margin-inline-start: 10px;
+  margin-inline-start: 10px;
 }
 
 .destination-card .card-rating .span {
-    background-color: var(--bg-sunglow-alpha-10);
-    border-radius: var(--radius-pill);
-    padding: 4px 12px;
-    gap: 5px;
+  background-color: var(--bg-sunglow-alpha-10);
+  border-radius: var(--radius-pill);
+  padding: 4px 12px;
+  gap: 5px;
 }
 
 .destination-card .card-rating ion-icon {
-    color: var(--text-sunglow);
+  color: var(--text-sunglow);
 }
 
-.destination-card .btn {
-    margin-inline: auto;
+.destination .btn {
+  margin-inline: auto;
 }
 
 /* Experience */
 .experience .container {
-    display: grid;
-    gap: 50px;
+  display: grid;
+  gap: 50px;
 }
 
 .experience .section-text {
-    margin-block-end: 20px;
+  margin-block-end: 20px;
 }
 
 .experience-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-block-start: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-block-start: 15px;
 }
 
 .experience-item .item-title {
-    color: var(--bg-majorelle-blue);
-    font-size: 3.6rem;
-    font-weight: var(--weight-bold);
+  color: var(--bg-majorelle-blue);
+  font-size: 3.6rem;
+  font-weight: var(--weight-bold);
 }
 
 .experience-banner {
-    position: relative;
+  position: relative;
 }
 
 .experience-shape {
-    position: absolute;
-    top: 50%;
-    left: -10px;
-    width: 25%;
-    filter: drop-shadow(var(--shadow-4));
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  width: 25%;
+  filter: drop-shadow(var(--shadow-4));
 }
 
 /* Gallery */
 .gallery .section-title {
-    margin-block-end: 40px;
+  margin-block-end: 40px;
 }
 
 .gallery-list {
-    display: grid;
-    gap: 15px;
+  display: grid;
+  gap: 15px;
 }
 
 .gallery .item-banner {
-    border-radius: var(--radius-30);
+  border-radius: var(--radius-30);
 }
 
 /* CTA */
 .cta-card {
-    background-color: var(--bg-misty-rose);
-    padding: 60px 20px;
-    text-align: center;
-    border-radius: var(--radius-30);
+  background-color: var(--bg-misty-rose);
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: var(--radius-30);
 }
 
 .cta-card .img {
-    display: inline-block;
+  display: inline-block;
 }
 
 .cta-card .section-text {
-    margin-block: 20px;
+  margin-block: 20px;
 }
 
 .cta-card .btn {
-    margin-inline: auto;
+  margin-inline: auto;
 }
 
 /* Footer */
