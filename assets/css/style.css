@@ -661,3 +661,115 @@ body.nav-active {
 .cta-card .btn {
     margin-inline: auto;
 }
+
+/* Footer */
+.footer-top {
+  display: grid;
+  gap: 40px;
+  padding-block: 60px;
+}
+
+.footer-brand .logo img {
+  width: 180px;
+}
+
+.footer-top .footer-text {
+  margin-block: 20px;
+}
+
+.footer-top .social-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-list .social-link {
+  color: var(--text-majorelle-blue);
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: var(--radius-pill);
+  transition: var(--transition-1);
+}
+
+.social-list .social-link:is(:hover, :focus-visible) {
+  background-color: var(--bg-majorelle-blue);
+  color: var(--text-white);
+}
+
+.footer-list-title {
+  color: var(--text-gunmetal);
+  font-size: var(--fontSize-5);
+  font-weight: var(--weight-semiBold);
+  margin-block-end: 15px;
+}
+
+.footer-link {
+  margin-block-start: 10px;
+}
+
+.footer-link:is(:hover, :focus-visible) {
+  text-decoration: underline;
+}
+
+.footer-list .footer-text {
+  margin-block-end: 15px;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-wrapper .input-field {
+  height: 55px;
+  padding-inline: 25px 60px;
+  border: 1px solid var(--border-gainsboro);
+  color: var(--text-gunmetal);
+  border-radius: var(--radius-pill);
+}
+
+.input-field:focus {
+  border-color: var(--bg-majorelle-blue);
+}
+
+.input-wrapper .input-btn {
+  width: 45px;
+  height: 45px;
+  background-color: var(--bg-majorelle-blue);
+  font-size: 2rem;
+  border-radius: var(--radius-circle);
+  display: grid;
+  place-items: center;
+  color: var(--text-white);
+  transition: var(--transition-1);
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+}
+
+.input-wrapper .input-btn:is(:hover, :focus-visible) {
+  background-color: var(--bg-ocean-blue);
+}
+
+.input-btn ion-icon {
+  transform: translateX(-2px) rotate(45deg);
+}
+
+.footer-bottom {
+  border-block-start: 1px solid var(--border-gainsboro);
+  padding-block: 30px;
+}
+
+.copyright {
+  margin-block-end: 20px;
+}
+
+.copyright-link {
+  color: var(--text-majorelle-blue);
+  font-weight: var(--weight-medium);
+  display: inline-block;
+}
+
+.footer-bottom-link:is(:hover, :focus-visible) {
+  text-decoration: underline;
+}
